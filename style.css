@@ -17,14 +17,24 @@ body {
     width: 100%;
 }
 
-.secaoprodutos {}
+.secaoprodutos {
+    padding-top: 64px;
+}
 
-.secaoprodutos .produtoslista {}
+.secaoprodutos .produtolista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
 .secaoprodutos .cardproduto {
     background-color: #fff;
-    width: 233px;
+    width: 200px;
     text-align: center;
+    padding: 28px 22px;
+    border: 2px solid #F5EBDC;
+    border-radius: 15px;
+    margin-bottom: 14px;
 }
 
 .secaoprodutos .cardproduto img {}
@@ -33,12 +43,14 @@ body {
     color: #502314;
     font-size: 20px;
     font-weight: 700;
+    margin: 28px 0;
 }
 
 .secaoprodutos .cardproduto p {
     color: black;
     font-size: 18px;
     font-weight: 700;
+    margin: 28px 0;
 }
 
 .secaoprodutos .cardproduto button {
