@@ -1,13 +1,8 @@
-        .body {
-        background-color: #f5f3f0;
-    }
-    
-    .container {
-        max-width: 1330px;
-        margin: 0 auto;
-        padding: 20px;
-    }
-    
-    .cabecalho .container {
-        display: flex;
-        justify-content: space-between;
+body {
+    background-attachment: #F5F3F0;
+}
+
+.cabecalho {
+    margin: flex;
+    background-color: black;
+}
